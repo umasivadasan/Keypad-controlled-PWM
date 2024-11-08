@@ -1,0 +1,99 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"AVR128DB48"</DEVICE>
+ <WORKING_DIR>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\AVR-Dx_DFP\1.10.114\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\AVR-Dx_DFP\1.10.114\avrasm\inc\AVR128DB48def.inc</FILE>
+  <FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\Debug\PWM_100_levels_TCA0.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>PWM_100_levels_TCA0.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>PWM_100_levels_TCA0.map</FILE>
+  <FILE>PWM_100_levels_TCA0.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>22</LINE></RESET>
+  <porte_ISR><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>94</LINE></porte_ISR>
+  <init_lcd_dog><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>283</LINE></init_lcd_dog>
+  <clr_dsp_buffs><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>323</LINE></clr_dsp_buffs>
+  <update_lcd_dog><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>353</LINE></update_lcd_dog>
+  <Test_message_1><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>308</LINE></Test_message_1>
+  <load_msg><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>347</LINE></load_msg>
+  <start><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>42</LINE></start>
+  <TCA><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>61</LINE></TCA>
+  <read_waveform><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>90</LINE></read_waveform>
+  <update_PWM_sbr><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>109</LINE></update_PWM_sbr>
+  <read_keypad><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>111</LINE></read_keypad>
+  <keycode_to_scancode><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>368</LINE></keycode_to_scancode>
+  <inc_count><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>130</LINE></inc_count>
+  <clear_code_label_2><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>147</LINE></clear_code_label_2>
+  <check_letters><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>292</LINE></check_letters>
+  <input_check><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>136</LINE></input_check>
+  <check_waves><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>123</LINE></check_waves>
+  <check_valid_output_cycle><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>155</LINE></check_valid_output_cycle>
+  <valid_period_output><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>145</LINE></valid_period_output>
+  <check_valid_output_period><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>232</LINE></check_valid_output_period>
+  <clear_code><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>277</LINE></clear_code>
+  <clear_FF_label_2><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>150</LINE></clear_FF_label_2>
+  <dsp_buff_1><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>66</LINE></dsp_buff_1>
+  <interrupt_clear><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>224</LINE></interrupt_clear>
+  <wave_form><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>192</LINE></wave_form>
+  <keep><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>198</LINE></keep>
+  <pwm_low><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>217</LINE></pwm_low>
+  <pwm_high><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>206</LINE></pwm_high>
+  <clear_code_label><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>229</LINE></clear_code_label>
+  <multiply_period><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>269</LINE></multiply_period>
+  <int_clr><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>303</LINE></int_clr>
+  <dsp_buff_2><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>67</LINE></dsp_buff_2>
+  <dsp_buff_3><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>68</LINE></dsp_buff_3>
+  <delay_30uS><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>85</LINE></delay_30uS>
+  <d30_loop><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>89</LINE></d30_loop>
+  <v_delay><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>117</LINE></v_delay>
+  <delay_40mS><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>134</LINE></delay_40mS>
+  <init_spi_lcd><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>148</LINE></init_spi_lcd>
+  <wait_transmit_init><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>183</LINE></wait_transmit_init>
+  <lcd_spi_transmit_CMD><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>205</LINE></lcd_spi_transmit_CMD>
+  <wait_transmit0><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>208</LINE></wait_transmit0>
+  <wait_transmit1><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>224</LINE></wait_transmit1>
+  <lcd_spi_transmit_DATA><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>244</LINE></lcd_spi_transmit_DATA>
+  <wait_transmit2><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>247</LINE></wait_transmit2>
+  <wait_transmit3><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>263</LINE></wait_transmit3>
+  <start_dly_40ms><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>286</LINE></start_dly_40ms>
+  <func_set1><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>289</LINE></func_set1>
+  <func_set2><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>294</LINE></func_set2>
+  <bias_set><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>299</LINE></bias_set>
+  <contrast_set><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>304</LINE></contrast_set>
+  <power_ctrl><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>310</LINE></power_ctrl>
+  <follower_ctrl><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>316</LINE></follower_ctrl>
+  <display_on><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>325</LINE></display_on>
+  <entry_mode><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>330</LINE></entry_mode>
+  <clr_display><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>336</LINE></clr_display>
+  <wr_line1><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>359</LINE></wr_line1>
+  <snd_ddram_addr><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>362</LINE></snd_ddram_addr>
+  <snd_buff_1><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>366</LINE></snd_buff_1>
+  <init_for_buff_2><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>374</LINE></init_for_buff_2>
+  <wr_line2><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>377</LINE></wr_line2>
+  <snd_ddram_addr2><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>380</LINE></snd_ddram_addr2>
+  <snd_buff_2><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>384</LINE></snd_buff_2>
+  <init_for_buff_3><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>392</LINE></init_for_buff_3>
+  <wr_line3><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>394</LINE></wr_line3>
+  <snd_ddram_addr3><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>397</LINE></snd_ddram_addr3>
+  <snd_buff_3><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\lcd_dog_asm_driver_avr128.inc</FILE><LINE>401</LINE></snd_buff_3>
+  <store_bytes><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>330</LINE></store_bytes>
+  <get_msg_byte><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>359</LINE></get_msg_byte>
+  <msg_loaded><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>365</LINE></msg_loaded>
+  <lookup><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>374</LINE></lookup>
+  <segtable><FILE>F:\ESE 280\Lab 11 TA\PWM_100_levels_TCA0\PWM_100_levels_TCA0\main.asm</FILE><LINE>383</LINE></segtable>
+ </LABELS>
+</ASSEMBLER_INFO>
